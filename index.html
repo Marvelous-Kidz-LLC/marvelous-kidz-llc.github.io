@@ -2,19 +2,30 @@
 layout: default
 ---
 
-<div class="fullpageimg">
+<div id="navLinks">
+        <ul>
+            <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#tuition">TUITION</a></li>
+        <li><a href="#resources">RESOURCES</a></li>
+        <li><a href="#speaking">SPEAKING</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+        </ul>
+</div>
+
+<div id="home" class="fullpageimg">
 {% include navigation.html %}
 <div class="hero section">
-<h1>Does your child struggle with reading, writing, or spelling? <strong>End the frustration now!</strong></h1>
-<span class="button">I'M INTERESTED</span>
-<span class="tertiary button">LEARN MORE</span>
+<h1><span>Does your child struggle with reading, writing, or spelling?</span> <strong>End the frustration now!</strong></h1>
+<span class="button"><a href="#contact">I'M INTERESTED</a></span>
+<span class="tertiary button"><a href="#about">LEARN MORE</a></span>
 </div>
 </div>
 
 <div class="testimonials carousel section">
     <div class="testimonial">
         <span class="quote">"Ms. Dickens continues to demonstrate excellent teaching skills."</span>
-        <span class="sender">"E.K."</span>
+        <span class="sender">E.K.</span>
         <span class="location">Western Governors University</span>
     </div>
     <div class="testimonial">
@@ -83,7 +94,7 @@ layout: default
     </p>
 </div>
 
-<div class="about section">
+<div id="about" class="about section">
     <img src="#" class="profile image">
     <span class="introducing">Meet our energetic and fun-loving therapist...</span>
     <h2>Katherine (Kareema) Dickens</h2>
@@ -94,7 +105,7 @@ layout: default
     <p>She enjoys storytelling, hiking, trips to the mountains, exercising, and most of all, time spent with her family.</p>
 </div>
 
-<div class="tuition section">
+<div id="tuition" class="tuition section">
     <h2>Tuition &amp; Fees</h2>
     <p>Monthly tuition is based on frequency and location. Please complete the contact form for an initial consultation to determine your child's needs. Sessions are normally fifty minutes to one hour in duration. Tuition is paid monthly and due on the 1st day of each month. (For example, October tuition is due October 1st). Therapy commitment and payment run month-to-month.</p>
     <p>Formal progress reports are provided to parents every six months to one year, depending on the student. Curriculum supplies and consumables, benchmark assessments, all parent conferences, and yearly reports are included in each student's monthly tuition. Marvelous Kidz, LLC, will also consult with your child's teachers, and other specialists with written parent permission, if necessary.</p>
@@ -113,7 +124,7 @@ layout: default
     <p>Therapy can be provided in a number of locations: The Marvelous Kidz office, located in Herndon, Virginia, as well as a private or public school setting (additional travel charge of greater than 10 miles).</p>
 </div>
 
-<div class="resources section">
+<div id="resources" class="resources section">
     <ul>
         <li><a href="https://www.testdyslexia.com/">TestDyslexia.com</a></li>
         <li><a href="https://learningally.org/Dyslexia/Dyslexia-Test">LearningAlly.org</a></li>
@@ -122,7 +133,7 @@ layout: default
     </ul>
 </div>
 
-<div class="speaking section">
+<div id="speaking" class="speaking section">
     <h2>Get Ready for Dynamic &amp; Engaging Professional Development</h2>
     <div class="carousel">
         <span class="slide">"She really knows how to engage her audience."</span>
@@ -137,7 +148,7 @@ layout: default
     </ol>
 </div>
 
-<div class="contact section">
+<div id="contact" class="contact section">
     <h2>Schedule Your Free Consultation Today</h2>
     <p>We welcome any questions or comments!</p>
     <form>
