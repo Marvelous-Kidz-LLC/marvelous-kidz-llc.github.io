@@ -5,10 +5,12 @@ html, body {
     width: 100%;
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
+    font-size: 2vw;
 }
 
 .section, nav, footer {
-    padding: 0 15% 0 15%; 
+    padding: 5% 15% 5% 15%; 
+    text-align: center;
 }
 
 nav {
@@ -80,6 +82,8 @@ nav a.icon {
 
 .hero {
     color: #333;
+    text-align: left;
+    padding-top: 0;
 }
 
 .hero h1 {
@@ -106,7 +110,33 @@ nav a.icon {
     color: inherit;
 }
 
+.effects {
+    background-color: lightgreen;
+}
+
+/* TODO Implement 2 card layout for dyslexia indicators */
+
 footer {
-    padding-bottom: 2.5%;
+    background-color: whitesmoke;
     text-align: center;
+}
+
+footer .fa {
+    padding: 2.5%;    
+    margin: 2%;
+    width: 2em;
+    height: 2em;
+    font-size: 1em;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+footer .fa-facebook {
+    color: white;
+    background-color: #3b5998;
+}
+
+footer .fa-envelope {
+    color: white;
+    background-color: black;
 }
