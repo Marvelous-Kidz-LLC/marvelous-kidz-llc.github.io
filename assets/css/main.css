@@ -41,6 +41,8 @@ nav a {
 nav .site-brand {
     float: left;
     font-size: 2em;
+    padding: 0;
+    margin: 0;
 }
 
 #navLinks {
@@ -54,6 +56,11 @@ nav .site-brand {
     padding-top: 5%;
     background-color: white;
     text-align: center;
+}
+
+#home {
+    width: 100%;
+    height: 100%;
 }
 
 #navLinks a {
@@ -71,13 +78,18 @@ nav a.icon {
     font-size: 2em;
 }
 
-.fullpageimg {
+.fullpageimg-1 {
     background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("/assets/images/brochure-pic.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%; 
-    height: 100%;
+}
+
+.fullpageimg-2 {
+    background-image: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)), url("/assets/images/student-pic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero {
@@ -87,8 +99,7 @@ nav a.icon {
 }
 
 .hero h1 {
-    padding-top: 10%;
-    font-size: 3.5em;
+    font-size: 3em;
 }
 
 .hero h1 span {
@@ -114,7 +125,32 @@ nav a.icon {
     background-color: lightgreen;
 }
 
-/* TODO Implement 2 card layout for dyslexia indicators */
+.about {
+    background-color: wheat;        
+}
+
+.profile {
+    max-width: 75%;
+    border-radius: 5%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+img {
+    width: 100%;
+}
+
+ol li {
+    text-align: left;
+}
+
+input {
+    border-color: gray;
+    border-radius: 0;
+    margin: 2.5%;
+    padding: 2.5%;
+}
 
 footer {
     background-color: whitesmoke;
@@ -139,4 +175,14 @@ footer .fa-facebook {
 footer .fa-envelope {
     color: white;
     background-color: black;
+}
+
+@media only screen and (max-width: 1000px) {
+    body, html {
+        font-size: 10px;
+    }
+
+    #home {
+      height: auto;
+    }
 }
