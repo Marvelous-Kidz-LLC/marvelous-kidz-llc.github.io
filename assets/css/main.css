@@ -41,7 +41,7 @@ nav a {
 
 nav .site-brand {
     float: left;
-    font-size: 2em;
+    font-size: 1.3em;
     padding: 0;
     margin: 0;
 }
@@ -111,6 +111,10 @@ nav a.icon {
 
 .hero .button {
     padding: 2%;
+}
+
+.hero span { 
+    display: inline-block;
 }
 
 .button a {
@@ -183,10 +187,14 @@ footer .fa-envelope {
 
 @media only screen and (max-width: 1000px) {
     body, html {
-        font-size: 10px;
+        font-size: 20px;
     }
 
     #home {
       height: auto;
+    }
+
+    nav ul {
+        display: inline-block;
     }
 }
